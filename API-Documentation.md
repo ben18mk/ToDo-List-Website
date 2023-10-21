@@ -17,7 +17,7 @@ No request parameters are required for this endpoint.
 * **400 Bad Request** - Database related errors.
 * **500 Internal Server Error** - For other errors.
 
-## Complete a Specific Task
+## Complete Specific Task
 Marks a specific task as completed.
 ### URL
 ```
@@ -63,7 +63,7 @@ DELETE /all
   2. Parameter 'uncompleted' is neither "true" nor "false".
 * **500 Internal Server Error** - For other errors.
 
-## Delete a Specific Task
+## Delete Specific Task
 Deletes a specific task.
 ### URL
 ```
