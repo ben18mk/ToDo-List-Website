@@ -38,6 +38,10 @@ export default class TasksController {
             }
 
             const deleteResponse = await TasksDAO.deleteTask(taskId);
+
+            if (!deleteResponse.deletedCount) {
+                throw new Error("Unable to delete task");
+            }
             res.json(deleteResponse);
         } catch (e) {
             res.status(500).json({error: e.message});
