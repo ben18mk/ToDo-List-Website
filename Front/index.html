@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="title-container">
+            <h3><a href="completed.html">Completed</a></h3>
+            <h1>To-Do List</h1>
+        </div>
+
+        <div class="new-container">
+            <div class="new-controls">
+                <input type="text" id="new-task" onkeydown="inputKeyDown(event)">
+                <p><a href="#" onclick="saveTask()">ADD</a></p>
+            </div>
+        </div>
+
+        <div class="options-all-container">
+            <div class="buttons-all-container">
+                <p>ALL</p>
+                <p id="buttons-all">
+                    <a href="#" onclick="removeAll(false)">🗑️</a>
+                    <a href="#" onclick="removeAll(true)">✅</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="counter-container">
+            <p>Count: <span id="count"></p>
+        </div>
+
+        <div class="list-container">
+            <div class="list" id="list">
+        </div>
+        <script src="util.js"></script>
+        <script src="common.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

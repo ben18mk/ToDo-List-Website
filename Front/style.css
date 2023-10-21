@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #273c75;
+}
+
+p, a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+.title-container {
+    display: flex;
+    padding: 25px;
+    color: white;
+}
+
+.title-container > h1 {
+    margin: auto;
+    margin-left: 39.5%;
+    
+}
+
+.new-container, .new-controls, .list-container {
+    display: flex;
+}
+
+.new-container {
+    padding: 15px;
+}
+
+.new-controls {
+    margin: auto;
+    height: 50px;
+}
+
+.new-controls > input {
+    width: 795px;
+    
+    border: none;
+    outline: none;
+    border-bottom: solid white 1px;
+
+    background-color: #273c75;
+    color: white;
+
+    font-size: 22px;
+}
+
+.new-controls > p {
+    margin: auto;
+    padding-left: 10px;
+}
+
+.options-all-container {
+    display: flex;
+}
+
+.buttons-all-container {
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.buttons-all-container > p {
+    text-align: center;
+    height: 10px;
+}
+
+.counter-container {
+    display: flex;
+    padding-bottom: 20px;;
+}
+
+.counter-container > p {
+    margin: auto;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #192a56;
+
+    padding: 25px;
+    margin: auto;
+
+    border-radius: 20px;
+}
+
+.item-container {
+    display: flex;
+    height: 42px;
+    margin: auto;
+}
+
+.buttons-container, .datetime {
+    margin: auto 0px;
+    height: 42px;
+
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    background-color: #718093;
+}
+
+.buttons-container {
+    padding: 5px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.datetime {
+    padding: 7px 10px;
+}
+
+.text {
+    margin: auto 0px;
+    padding: 7px 10px;
+    height: 42px;
+    width: 750px;
+
+    background-color: #718093;
+
+    border: 1px solid black;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.textInput {
+    width: 100%;
+    height: 100%;
+
+    vertical-align: top;
+    font-size: 22px;;
+}
