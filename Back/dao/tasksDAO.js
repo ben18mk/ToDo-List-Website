@@ -105,7 +105,7 @@ export default class TasksDAO {
                 {completed: false},
                 {$set: {
                     completed: true,
-                    completedTime: new Date().getTime
+                    completedTime: new Date().getTime()
                 }}
             );
 
