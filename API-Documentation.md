@@ -54,8 +54,8 @@ DELETE /all
 ### Request
 #### Query Parameters
 * **uncompleted**
-  - true - To delete all uncompleted tasks.
-  - false - To delete all completed tasks.
+  - **true** - To delete all uncompleted tasks.
+  - **false** - To delete all completed tasks.
 ### Response
 * **200 OK** - If the request is successful.
 * **400 Bad Request**
