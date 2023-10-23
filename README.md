@@ -1,7 +1,7 @@
 # To-Do List - Website
 * [Website Preview](#website-preview)
 * [Backend Setup](https://github.com/ben18mk/ToDo-List-Website/blob/main/Backend-Setup.md#backend-setup)
-* [Backend API Documentation](https://github.com/ben18mk/ToDo-List-Website/blob/main/API-Documentation.md)
+* [Backend API Documentation](https://github.com/ben18mk/ToDo-List-Website/blob/main/API-Documentation.md#backend-api-documentation)
 
 # Website Preview
 ### index.html
